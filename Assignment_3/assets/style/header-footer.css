@@ -1,0 +1,87 @@
+@import 'base.css';
+
+header{
+    min-width: 100%;
+    background-color: #57a451;
+    overflow: hidden;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    height: 56px;
+}
+
+.title h1{
+    font-size: 18px;
+    font-weight: 600px;
+    color: #fff;
+    line-height: 56px;
+    letter-spacing: .4px;
+}
+
+nav{
+    text-align: right;
+    height: 56px;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 0;
+}
+
+nav ul li{
+    display: inline;
+    line-height: 56px;
+    cursor: default;
+}
+
+nav ul li a{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: .2px;
+    text-transform: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul li + li{
+    margin-left: 25px;
+}
+
+#footer{
+    background-color: grey;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 70px;
+    padding-top: 20px;
+    background-color: #f9f9f9;
+
+}
+footer p{
+    float: right;
+    margin-right: 40px;
+}
+
+footer a{
+    float: left;
+    margin-left: 30px;
+    border: .5px solid grey;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    border-radius: 150%;
+}
