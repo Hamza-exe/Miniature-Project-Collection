@@ -1,0 +1,91 @@
+.row {
+    margin-top: 70px;
+}
+
+.row h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.flex {
+    margin-top: 10px;
+    padding: 15px;
+    height: 310px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.flex-wrap div, .flex-nowrap div{
+    width: 175px;
+    height: 140px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.flex div {
+    width: 140px;
+
+    border-radius: 6px;
+    text-align: center;
+}
+
+.flex div p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140px;
+}
+
+.box1   {background-color: #53add4;}
+.box2   {background-color: #53d47a;}
+.box3   {background-color: #d47a53;}
+
+
+.flex-direction-row{
+    flex-direction: end;
+}
+
+.flex-direction-row-reverse{
+    flex-direction: row-reverse;
+}
+
+.flex-direction-coloumn-reverse{
+    flex-direction: column-reverse;
+}
+
+.flex-column-wrap{
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 310px;
+
+}
+
+.flex-column-nowrap{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 310px;
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+.flex-around{
+    justify-content: space-around;
+}
+
+.allign-items-center{
+    align-items: center;
+}
+
+.allign-items-stretch{
+    align-items: stretch;
+}
+
+.allign-items-end{
+    align-items: flex-end;
+}
+
+.flex-grow .box2{
+    flex-grow: 3;
+}

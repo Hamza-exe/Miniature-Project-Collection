@@ -1,0 +1,389 @@
+@import 'base.css';
+
+header{
+    max-width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    width: 100%;
+}
+
+nav{
+    margin-top: 20px;
+    width: 100%;
+    text-align: right;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 0;
+}
+
+nav ul li{
+    display: inline;
+    line-height: 56px;
+    cursor: default;
+}
+
+nav ul li a{
+    font-size: 19px;
+    font-weight: 600;
+    color: #e9e9e9;
+    text-decoration: none;
+    letter-spacing: .2px;
+    text-transform: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul li + li{
+    margin-left: 25px;
+}
+
+footer {
+    min-width: 100%;
+    height: 100px;
+    background-color: #f6f6f7;
+    overflow: hidden;
+}
+ 
+.footer-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#login{
+    color: white;
+    border-radius: 30px;
+}
+
+/* Footer code sourced from Andre Specht */
+footer {
+    min-width: 100%;
+    height: 100px;
+    background-color: #f6f6f7;
+    overflow: hidden;
+}
+
+.logo img{
+    width: 56px;
+    height: auto;
+}
+
+.logo {
+    margin-top: 20px;
+    float: left;
+}
+ 
+.footer-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.social .nav {
+    min-width: 100%;
+    height: 4rem;
+    text-align: left;
+}
+ 
+.social .nav ul li + li {
+    margin-left: 10px;
+}
+ 
+.social .nav ul li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+ 
+.social .nav ul li a {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #505464;
+    border: 1px solid #d7d7db;
+    background-color: transparent;
+    border-radius: 5rem;
+}
+ 
+.social .nav ul li a i {
+    font-size: 19px;
+}
+ 
+a, i {
+    transition: all .2s ease-in-out;
+}
+ 
+.social .nav ul li a i.fa-twitter {
+    line-height: 40px;
+}
+ 
+.social .nav ul li a i.fa-instagram,
+.social .nav ul li a i.fa-youtube {
+    line-height: 38px;
+}
+ 
+.social .nav ul li a.twitter:hover {
+    border: 1px solid #1da1f2;
+    background-color: #1da1f2;
+}
+ 
+.social .nav ul li a.instagram:hover {
+    border: 1px solid #e1306c;
+    background-color: #e1306c;
+}
+ 
+.social .nav ul li a.youtube:hover {
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+}
+ 
+.social .nav ul li a.twitter:hover i,
+.social .nav ul li a.instagram:hover i,
+.social .nav ul li a.youtube:hover i {
+    color: #fff;
+}
+ 
+.copyright {
+    height: 40px;
+    text-align: right;
+}
+ 
+.copyright p {
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#main{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../img/Background.jfif) center center/ cover no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-banner{
+    margin-top: 8%;
+    height: 400px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+#content{
+    width: 80%;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-left: auto;
+}
+
+.hero-banner h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#content h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.container{
+
+}
+
+#project{
+    background-color: #565a5c;
+    padding: 7px 25px 9px 25px;
+    border-radius: 20px;
+    color: white;
+    border: 2px #565a5c;
+    transition: 0.5s;
+    font-size: 130%;
+    border: 2px solid transparent; /* <- here */
+    transition: border 1s;
+    text-decoration: none; /* I added this for clarity of effect */
+}
+
+#project:hover {
+    border: 2px solid #435454;
+}
+
+#socials{
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    margin: auto; 
+}
+
+#socials a{
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.hero-banner h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.mobile-nav {
+    overflow: hidden;
+}
+  
+.mobile-nav i {
+    margin-top: 32px;
+    font-size: 22px;
+    color: #e9e9e9;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section{
+    margin-top: 40px;
+    padding: 88px 0;
+    background-color: #f7f8f9;
+}
+
+section h1{
+    text-align: center;
+}
+
+.row{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: 100%;
+    padding: 15px;
+}
+
+.col-content{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 24px 28px 29px 28px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 28px 48px 0 rgba(59, 69, 152, .15);
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3{
+    font-size: 22px;
+    color: #303336;
+    font-weight: 700;
+}
+
+.content p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 9px;
+    color: #303336;
+}
+
+.flexbox {
+    display: flex;
+}
+
+
+@media screen and (min-width: 200px){
+
+    .hero-banner{
+        text-align: center;
+    }
+
+    nav {display: none;}
+    .mobile-nav{display: block;}
+
+}
+
+@media screen and (min-width: 300px){
+
+    .hero-banner{
+        text-align: center;
+    }
+
+    nav {display: none;}
+    .mobile-nav{display: block;}
+
+}
+
+@media screen and (min-width: 580px){
+
+    .hero-banner{
+        text-align: center;
+    }
+
+    .col-md-6{
+        width: 50%;
+        flex: 0 0 50%;
+    }
+
+    nav {display: none;}
+    .mobile-nav{display: block;}
+}
+
+@media screen and (min-width: 768px){
+
+    .hero-banner{
+        text-align: left;
+    }
+
+    .container, .row-container{
+        max-width: 800px;
+    }
+
+    .col-md-6{
+        width: 50%;
+        flex: 0 0 50%;
+    }
+
+    nav {display: block;}
+    .mobile-nav{display: none;}
+}
+
+@media screen and (min-width: 1024px){
+
+    .col-md-6{
+        width: 25%;
+        flex: 0 0 25%;
+    }
+
+    .hero-banner{
+        text-align: left;
+    }
+
+    .container, .row-container{
+        max-width: 1140px;
+    }
+
+    nav {display: block;}
+    .mobile-nav{display: none;}
+}

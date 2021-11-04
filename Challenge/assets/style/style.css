@@ -6,12 +6,12 @@
 }
 
 .hero-banner{
-    margin-top: 8.5%;
+    margin-top: 8%;
     height: 400px;
     text-align: center;
     display: flex;
     align-items: center;
-    margin-bottom: 8.5%;
+    margin-bottom: 8%;
 }
 
 #content{
@@ -22,14 +22,15 @@
 }
 
 .hero-banner h2{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #content h2{
-    margin-bottom: 15px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .container{
@@ -41,6 +42,7 @@
     padding: 7px 25px 9px 25px;
     border-radius: 20px;
     color: white;
+    font-size: 130%;
     text-decoration: none;
 }
 
@@ -56,14 +58,14 @@
 }
 
 img{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .hero-banner h1{
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 700;
     color: #fff;
 }

@@ -1,0 +1,42 @@
+@import "base.css";
+
+#content{
+    background:rgba(163, 124, 124, 0.3) url(../img/background.jpg) center center/ cover no-repeat;
+    height: 100vh;
+}
+
+.form{
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.408);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    margin: 0 auto;
+    height: 70%;
+    padding: 30px;
+    box-shadow: 0 0 0 1px hsla(0, 0%, 100%, .2) inset, 0 .4em 1em rgba(0, 0, 0, .4);
+}
+
+#text{
+    margin-top: 118.5px;
+}
+
+.form img{
+    display: flex;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form p{
+    text-align: center;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+}

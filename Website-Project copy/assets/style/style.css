@@ -1,0 +1,392 @@
+@import "base.css";
+
+header {
+    min-width: 100%;
+    background-color:rgba(0, 0, 0, .3);
+    overflow: hidden;
+  }
+  
+  header div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title {
+    height: 50px;
+  }
+  
+  .title h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 50px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    text-align: right;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    font-size: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    line-height: 50px;
+    cursor: default;
+  }
+  
+  nav ul li a {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: .2px;
+    text-transform: none;
+    cursor: pointer;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  nav ul li + li {
+    margin-left: 25px;
+  }
+
+  .mobile-nav {
+    overflow: hidden;
+  }
+  
+  .mobile-nav i {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.container {
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+  
+  
+.flexbox {
+    display: flex;
+}
+
+
+.form{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(8, 15, 23, 0.9);
+}
+
+.form p, h1, h2, input, textarea{
+    color: whitesmoke;
+}
+
+main{
+    height: calc(100vh - 70px);
+    background: rgba(0, 0, 0, .3) url(../img/code.jpg) center center/ cover no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+
+.hero-banner{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+section{
+    padding: 88px 0;
+    background-color: #f7f8f9;
+}
+
+.row{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: 100%;
+    padding: 15px;
+}
+
+.col-content{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 24px 28px 29px 28px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 28px 48px 0 rgba(59, 69, 152, .15);
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3{
+    font-size: 22px;
+    color: #303336;
+    font-weight: 700;
+}
+
+.content p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 9px;
+    color: #303336;
+}
+
+.button a {
+    display: inline-block;
+    width: 120px;
+    height: 46px;
+    margin-top: 34px;
+    line-height: 47px;
+    background-color: #d94d3f;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 2.5 ease-in-out;
+}
+
+@media screen and (min-width: 300px){
+    nav {display: none;}
+    .mobile-nav{display: block;}
+
+}
+
+@media screen and (min-width: 580px){
+    nav {display: none;}
+    .mobile-nav{display: block;}
+
+    .col-md-6{
+        width: 50%;
+        flex: 0 0 50%;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .container, .row-container{
+        max-width: 800px;
+    }
+    nav {display: block;}
+    .mobile-nav{display: none;}
+
+    .col-md-6{
+        width: 50%;
+        flex: 0 0 50%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .container, .row-container{
+        max-width: 1140px;
+    }
+
+    nav {display: block;}
+    .mobile-nav{display: none;}
+    .col-lg-3{  
+        flex: 0 0 25%;
+        width: 25%;
+    }
+}
+
+
+#content{
+    width: 80%;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-left: auto;
+}
+
+.hero-banner h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#content h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-me{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.about-me p{
+    margin: 10px 0px 30px 0px;
+}
+
+.about-me h1{
+    color: black;
+    margin-top: 50px;
+}
+#project{
+    background-color: rgba(8, 15, 23, 0.9);
+    padding: 7px 25px 9px 25px;
+    border-radius: 20px;
+    color: white;
+    font-size: 130%;
+    text-decoration: none;
+}
+
+#socials{
+    text-align: center;
+    margin: auto;
+}
+
+#socials a{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+img{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.hero-banner h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+}
+
+hr {
+    border: 0;
+    text-align: center;
+    width: 150px;         
+    margin: 0 auto;      
+    background-color:black;
+    height: 1px;
+}
+
+.col img{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin: auto;
+}
+
+/* Footer code sourced from Andre Specht */
+footer {
+    min-width: 100%;
+    height: 100px;
+    background-color: #f6f6f7;
+    overflow: hidden;
+}
+ 
+.footer-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.social .nav {
+    min-width: 100%;
+    height: 4rem;
+    text-align: left;
+}
+ 
+.social .nav ul li + li {
+    margin-left: 10px;
+}
+ 
+.social .nav ul li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+ 
+.social .nav ul li a {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #505464;
+    border: 1px solid #d7d7db;
+    background-color: transparent;
+    border-radius: 5rem;
+}
+ 
+.social .nav ul li a i {
+    font-size: 19px;
+}
+ 
+a, i {
+    transition: all .2s ease-in-out;
+}
+ 
+.social .nav ul li a i.fa-twitter {
+    line-height: 40px;
+}
+ 
+.social .nav ul li a i.fa-instagram,
+.social .nav ul li a i.fa-youtube {
+    line-height: 38px;
+}
+ 
+.social .nav ul li a.twitter:hover {
+    border: 1px solid #1da1f2;
+    background-color: #1da1f2;
+}
+ 
+.social .nav ul li a.instagram:hover {
+    border: 1px solid #e1306c;
+    background-color: #e1306c;
+}
+ 
+.social .nav ul li a.youtube:hover {
+    border: 1px solid #ff0000;
+    background-color: #ff0000;
+}
+ 
+.social .nav ul li a.twitter:hover i,
+.social .nav ul li a.instagram:hover i,
+.social .nav ul li a.youtube:hover i {
+    color: #fff;
+}
+ 
+.copyright {
+    height: 40px;
+    text-align: right;
+}
+ 
+.copyright p {
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}  
+
