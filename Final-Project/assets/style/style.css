@@ -1,5 +1,9 @@
 @import 'base.css';
 
+h2{
+    font-size: 30px;
+}
+
 header{
     max-width: 90%;
     overflow: hidden;
@@ -208,8 +212,32 @@ a, i {
     margin-bottom: 20px;
 }
 
-.container{
+#about-me p{
+    text-align: center;
+    font-size: 150%;
+}
 
+#about-me h2{
+    text-align: center;
+}
+
+.button a {
+    display: inline-block;
+    width: 120px;
+    height: 46px;
+    margin-top: 34px;
+    line-height: 47px;
+    background-color: #d94d3f;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 2.5 ease-in-out;
 }
 
 #project{
@@ -269,7 +297,7 @@ section{
     background-color: #f7f8f9;
 }
 
-section h1{
+section h2{
     text-align: center;
 }
 

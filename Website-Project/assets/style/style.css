@@ -71,6 +71,7 @@ nav ul li + li {
 }
 
 .form{
+    padding: 40px;
     width: 100%;
     text-align: center;
     background-color: rgba(8, 15, 23, 0.9);
@@ -116,6 +117,12 @@ main{
     margin-bottom: 20px;
 }
 
+
+#contacts{
+    width: 70%;
+    margin: 30px auto;
+}
+
 .about-me{
     width: 100%;
     height: 200px;
@@ -132,6 +139,61 @@ main{
     color: black;
     margin-top: 50px;
 }
+
+#form{
+    margin-top: 100%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    background-color: rgba(8, 15, 23, 0.9);
+    /*Displays the form as inline block to take the minimum height and width needed to fit the content*/
+    display: inline-block;
+}
+
+
+
+/*styles the inputs*/
+form input{
+    color: #fff;
+    background-color: black;
+    border-color: whitesmoke;
+    padding: 10px;
+
+    /*this styles the input boxes too have certain width and height*/
+    height: 50px;
+    width: 270px;
+
+    margin-top: 10px;
+}
+
+/*this styles the submit button to have a width of 10%*/
+form #submit{
+    width: 10%;
+}
+
+/*this floats the paragraph elements to the left side and take up 50% of the width of the div*/
+form p{
+    float: left;
+    width: 50%;
+    margin-top: 0;
+}
+
+/*This styles the big contact image to take up 50% of the width of the div and float in the right section*/
+form #contact-img{
+    width: 50%;
+    float: right;
+}
+
+/*styles the textarea in the contact me form, gives it certain width, height, margin-top, gives it charcoal background color, white border and white text*/
+form textarea{
+    background-color: white;
+    border-color: whitesmoke;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 270px;
+    margin-top: 10px;
+}
+
 #project{
     background-color: rgba(8, 15, 23, 0.9);
     padding: 7px 25px 9px 25px;
@@ -141,12 +203,18 @@ main{
     text-decoration: none;
 }
 
-#socials{
+#social{
+    margin-top: 20px;
     text-align: center;
-    margin: auto;
 }
 
-#socials a{
+/*This styles the images in the social media icons div to have certain width and height*/
+#social img{
+    width: 26px;
+    height: 26px;
+}
+
+#social a{
     margin: 10px;
     font-size: 20px;
     color: white;
@@ -194,7 +262,6 @@ hr {
 .col img{
     height: 200px;
     width: 200px;
-    display: flex;
     margin: auto;
 }
 
@@ -292,3 +359,79 @@ a, i {
     font-weight: 400;
 }  
 
+section{
+    padding: 88px 0;
+    background-color: #f7f8f9;
+}
+
+.row{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: 100%;
+    padding: 15px;
+}
+
+.col-content{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 24px 28px 29px 28px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 28px 48px 0 rgba(59, 69, 152, .15);
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3{
+    font-size: 22px;
+    color: #303336;
+    font-weight: 700;
+}
+
+.content p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 9px;
+    color: #303336;
+}
+
+@media screen and (min-width: 580px){
+    nav {display: none;}
+    .mobile-nav{display: block;}
+
+    .col-md-6{
+        width: 50%;
+        flex: 0 0 50%;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .container, .row-container{
+        max-width: 800px;
+    }
+    nav {display: block;}
+    .mobile-nav{display: none;}
+
+    .col-md-6{
+        width: 50%;
+        flex: 0 0 50%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .container, .row-container{
+        max-width: 1140px;
+    }
+
+    nav {display: block;}
+    .mobile-nav{display: none;}
+    .col-lg-3{  
+        flex: 0 0 25%;
+        width: 25%;
+    }
+}

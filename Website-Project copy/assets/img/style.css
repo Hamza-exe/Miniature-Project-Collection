@@ -7,7 +7,7 @@ h2{
 
 header {
     min-width: 100%;
-    background-color: black;
+    background-color:rgba(0, 0, 0, .3);
     overflow: hidden;
   }
   
@@ -90,6 +90,11 @@ header {
 .form{
     width: 100%;
     text-align: center;
+    background-color: rgba(8, 15, 23, 0.9);
+}
+
+.form p, h1, h2, input, textarea{
+    color: whitesmoke;
 }
 
 main{
@@ -110,7 +115,7 @@ main{
 }
 
 section{
-    padding: 88px 0 0;
+    padding: 88px 0;
     background-color: #f7f8f9;
 }
 
@@ -209,11 +214,6 @@ section{
         flex: 0 0 25%;
         width: 25%;
     }
-
-    .col-lg-4{  
-        flex: 0 0 50%;
-        width: 50%;
-    }
 }
 
 
@@ -293,6 +293,7 @@ hr {
 .col img{
     height: 200px;
     width: 200px;
+    display: flex;
     margin: auto;
 }
 
@@ -400,40 +401,27 @@ a, i {
     display: inline-block;
 }
 
-#submit{
-    background-color: white;
-    color: grey;
-}
 
-#contacts{
-    height: 345px;
-    margin: 0 auto;
-    padding-top: 45px;
-    width: 90%;
-}
-
-#contacts h1{
-    font-size: 30px;
-}
-
-i{
-    color: black;
-}
 
 /*styles the inputs*/
 form input{
-    color: black;
-    border: solid;
-    border-radius: 5px;
+    color: #fff;
+    background-color: black;
     border-color: whitesmoke;
     padding: 10px;
 
     /*this styles the input boxes too have certain width and height*/
     height: 50px;
-    width: 100%;
+    width: 270px;
 
     margin-top: 10px;
 }
+
+/*this styles the submit button to have a width of 10%*/
+form #submit{
+    width: 10%;
+}
+
 /*this floats the paragraph elements to the left side and take up 50% of the width of the div*/
 form p{
     float: left;
@@ -450,11 +438,11 @@ form #contact-img{
 /*styles the textarea in the contact me form, gives it certain width, height, margin-top, gives it charcoal background color, white border and white text*/
 form textarea{
     background-color: white;
-    border: solid whitesmoke;
+    border-color: whitesmoke;
     color: #fff;
     border-radius: 5px;
     padding: 10px;
-    width: 100%;
+    width: 270px;
     margin-top: 10px;
 }
 
