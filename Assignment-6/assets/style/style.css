@@ -441,12 +441,6 @@ form p{
     margin-top: 0;
 }
 
-/*This styles the big contact image to take up 50% of the width of the div and float in the right section*/
-form #contact-img{
-    width: 50%;
-    float: right;
-}
-
 /*styles the textarea in the contact me form, gives it certain width, height, margin-top, gives it charcoal background color, white border and white text*/
 form textarea{
     background-color: white;
