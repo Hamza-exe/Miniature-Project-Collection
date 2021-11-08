@@ -566,6 +566,7 @@ section h2{
 }
 
 .article-page p{
+    margin-top: 20px;
     line-height: 1.4;
     font-size: 20px;
     font-weight: 300;
