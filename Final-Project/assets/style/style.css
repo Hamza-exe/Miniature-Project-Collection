@@ -38,16 +38,14 @@ nav ul li{
 
 nav ul li a{
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 400;
     color: #e9e9e9;
     text-decoration: none;
     letter-spacing: .2px;
     text-transform: none;
     cursor: pointer;
-}
-
-nav ul li a:hover{
-    text-decoration: underline;
+    border: 2px solid transparent; /* <- here */
+    transition: border 1s;
 }
 
 nav ul li + li{
@@ -69,7 +67,22 @@ footer {
 
 #login{
     color: white;
-    border-radius: 30px;
+}
+
+.nav-page a{
+    color: black;
+}
+
+.nav-page ul{
+    margin-bottom: 10px;
+}
+
+.nav-page a:hover{
+    border-bottom: solid black;
+}
+
+.nav-page .highlight{
+    border-bottom: solid black;
 }
 
 /* Footer code sourced from Andre Specht */
@@ -172,7 +185,7 @@ a, i {
  
 .copyright p {
     line-height: 40px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -194,9 +207,11 @@ a, i {
 }
 
 #content{
-    width: 80%;
+    margin-bottom: 40px;
+    width: 60%;
     margin-right: auto;
-    margin-top: 40px;
+    padding: 55px;
+    height: 250px;
     margin-left: auto;
 }
 
@@ -225,10 +240,11 @@ a, i {
     display: inline-block;
     width: 120px;
     height: 46px;
-    margin-top: 34px;
-    line-height: 47px;
+    margin-top: 20px;
+    line-height: 40px;
     background-color: #d94d3f;
     border-radius: 4px;
+    border: solid;
     font-size: 13px;
     font-weight: 700;
     color: #fff;
@@ -237,10 +253,14 @@ a, i {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    transition: all 2.5 ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
-#project{
+.button a:hover{
+    background-color: #c93628;
+}
+
+.project{
     background-color: #565a5c;
     padding: 7px 25px 9px 25px;
     border-radius: 20px;
@@ -253,8 +273,12 @@ a, i {
     text-decoration: none; /* I added this for clarity of effect */
 }
 
-#project:hover {
-    border: 2px solid #435454;
+.project:hover {
+    border: 2px solid antiquewhite;
+}
+
+.text{
+    text-align: center;
 }
 
 #socials{
@@ -284,20 +308,35 @@ a, i {
 }
   
 .mobile-nav i {
-    margin-top: 32px;
+    margin-top: 20px;
     font-size: 22px;
-    color: #e9e9e9;
+    color: grey;
     text-decoration: none;
     cursor: pointer;
 }
 
 section{
-    margin-top: 40px;
-    padding: 88px 0;
+    box-shadow: 0 28px 48px 0 rgb(59 69 152 / 15%);
+    padding: 55px 0;
     background-color: #f7f8f9;
 }
 
+section h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.highlight{
+    border-bottom: solid whitesmoke;
+}
+
+nav a:hover{
+    border-bottom: solid whitesmoke;
+}
+
 section h2{
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -311,12 +350,18 @@ section h2{
     padding: 15px;
 }
 
+.col-lg-3 img{
+    width: 100%;
+    height: 207px;
+    margin-bottom: 17px;
+}
+
 .col-content{
     text-align: center;
     position: relative;
     width: 100%;
     padding: 24px 28px 29px 28px;
-    background-color: #fff;
+    background: #fff;
     border-radius: 4px;
     box-shadow: 0 28px 48px 0 rgba(59, 69, 152, .15);
     display: flex;
@@ -332,7 +377,6 @@ section h2{
 .content p{
     font-size: 18px;
     font-weight: 500;
-    margin-top: 9px;
     color: #303336;
 }
 
@@ -342,6 +386,29 @@ section h2{
 
 
 @media screen and (min-width: 200px){
+
+    .article-page{
+        width: 96%;
+    }
+
+    header{
+        max-width: 96%;
+    }
+
+    #contacts{
+        padding-top: 25px;
+    }
+
+    #content{
+        margin-bottom: 0px;
+        width: 100%;
+        padding: 15px;
+        height: fit-content;
+    }
+
+    .logo{
+        margin-top: 8px;
+    }
 
     .hero-banner{
         text-align: center;
@@ -399,9 +466,37 @@ section h2{
 
 @media screen and (min-width: 1024px){
 
+    .article-page{
+        max-width: 70%;
+    }
+
+    header{
+        max-width: 90%;
+    }
+
+    #contacts{
+        padding-top: 65px;
+    }
+
+    #content{
+        width: 60%;
+        margin-bottom: 55px;
+        padding: 55px 55px 0;
+        height: fit-content;
+    }
+
+    .logo{
+        margin-top: 20px;
+    }
+
     .col-md-6{
         width: 25%;
         flex: 0 0 25%;
+    }
+
+    .col-lg-4{  
+        flex: 0 0 50%;
+        width: 50%;
     }
 
     .hero-banner{
@@ -414,4 +509,165 @@ section h2{
 
     nav {display: block;}
     .mobile-nav{display: none;}
+}
+
+/* About Me Page */
+
+#about-me div{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#about-me a:hover{
+    background-color: #c93628;
+}
+
+#about-me a{
+    display: inline-block;
+    width: 120px;
+    height: 46px;
+    line-height: 40px;
+    background-color: #d94d3f;
+    border-radius: 4px;
+    border: solid;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.article-page{
+    margin: auto;
+    padding: 55px 0;
+}
+
+#about{
+    box-shadow: 0 28px 48px 0 rgb(59 69 152 / 15%);
+}
+
+.article-page img{
+    width: 100%;
+    height: auto;
+}
+
+.article-page h1{
+    font-size: 35px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.article-page p{
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.button p{
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+/* form */
+
+#social i{
+    color: black;
+}
+
+input[type="text"]:valid, textarea:valid {
+    background: #fff url(../img/check-mark-3-xxl.png) no-repeat 96% center;
+    background-size: 12px 12px;
+}
+
+
+input[type="email"]:valid{
+    background: #fff url(../img/check-mark-3-xxl.png) no-repeat 96% center;
+    background-size: 12px 12px;
+}
+
+#form{
+    margin-top: 100%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    background-color: rgba(8, 15, 23, 0.9);
+    /*Displays the form as inline block to take the minimum height and width needed to fit the content*/
+    display: inline-block;
+}
+
+#submit{
+    background-color: #d94d3f;
+    color: white;
+    transition: all .6s ease-in-out;
+}
+
+#submit:hover{
+    background-color: #c93628;
+    color: white;
+}
+
+#opening{
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+#contacts{
+    height: 339px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#contacts h1{
+    font-size: 30px;
+}
+
+/*styles the inputs*/
+form input{
+    color: black;
+    border: solid;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    padding: 10px;
+
+    /*this styles the input boxes too have certain width and height*/
+    height: 50px;
+    width: 100%;
+
+    margin-top: 10px;
+}
+/*this floats the paragraph elements to the left side and take up 50% of the width of the div*/
+form p{
+    float: left;
+    width: 50%;
+    margin-top: 0;
+}
+
+/*styles the textarea in the contact me form, gives it certain width, height, margin-top, gives it charcoal background color, white border and white text*/
+form textarea{
+    background-color: white;
+    border: solid whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#social{
+    margin-top: 35px;
+    text-align: center;
+}
+
+/*This styles the images in the social media icons div to have certain width and height*/
+#social img{
+    width: 26px;
+    height: 26px;
+}
+
+#social a{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
 }

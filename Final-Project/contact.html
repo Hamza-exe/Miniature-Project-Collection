@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Hamza Elafifi">
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="assets/style/style.css" media="all">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    </head>
+
+    <body>
+        <div>
+            <div id="wrapper">
+                <header>
+                    <div class="container navigation">
+
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo-black.png"></a>
+                        </div>
+
+                        <nav class="nav-page">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-me.html">About Me</a></li>
+                                <li><a href="project.html">Featured Project</a></li>
+                                <li><a class="highlight" href="contact.html">Contact Me</a></li>
+                            </ul>
+                        </nav>
+
+                        <div class="mobile-nav">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <section>
+            <h1>Contact Me!</h1>
+            <div class="row-container row">
+                <div class="col col-md-6 col-lg-4">
+                    <div class="col-content">
+                        <div class="content">
+                            <div id="contacts">
+                                <p id="opening">Interested in learning more about me, my work, or how I can benefit your business or workplace?</p>
+                                <p>Contact me with the info below!</p>
+                                <p>Hamzaelafifi12@gmail.com</p>
+                                <p>204-896-4755</p>
+
+                                <div id="social">
+
+                                    <!-- Link to my Github page -->
+                                    <a href="https://github.com/Hamza-exe">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                    
+                                    <!-- Link to my facebook page -->
+                                    <a href="https://www.twitter.com/profile.php?id=100010313829213">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    
+                                    <!-- Link to my youtube page -->
+                                    <a href="https://www.youtube.com/channel/UCYTfeACDrpILPk3aRw5B7aw">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-md-6 col-lg-4">
+                    <div class="col-content">
+                        <div class="content">
+                            <div class="col form">
+                                <form style="text-align: center;" action="https://formspree.io/f/xpzkrrbk" method="POST" enctype="text/plain" id="my-form">
+            
+                                    <!--Place Visitor contact name -->
+                                    <input type="text" id="name" name="Name" placeholder="Name *" maxlength="7" required pattern="^[a-zA-Z]+$"><br>
+                        
+                                    <!--Visitor fills their Email address info -->
+                                    <input type="email" id="eaddress" name="Email" placeholder="Email Address *" maxlength="100" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br>
+                    
+                                    <!--Visitor fills the subject-->
+                                    <input type="subject" id="subject" name="Subject" placeholder="Subject *" maxlength="100" required>
+                        
+                                    <!--Text box area for visitor to ask question-->
+                                    <br><textarea id="message" placeholder="Type your message here... *" name="Message" required></textarea><br>
+                        
+                                    <!--Submit button for visitor to send their request, contains ID for seperate styling and to center it-->
+                                    <input type="submit" id="submit" value="Submit">
+                    
+                                    <!-- code sourced from: https://formspree.io/forms/xpzkrrbk/integration, message showing whether message was delivered or error occured -->
+                                    <p id="status" style="margin-top: 10px;"></p>
+                                </form> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="social">
+                        <div class="nav">
+                            <ul>
+                            <li><a class="twitter" href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="instagram" href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="youtube" href="#" title="YouTube"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>&copy 2021 Hamza Elafifi</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
