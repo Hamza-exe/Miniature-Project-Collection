@@ -11,13 +11,13 @@ To play Minecraft, you need to purchase the game on the platform you are using. 
 
 Once you launch and start a new game, you are transported to a world with no materials or weapons on hand. To start your journey, the most common and easy approach is to start and collect some wood. 
 
-Step 1. Find the nearest tree and destroy it by pressing the corresponding destroy button on the platform you are using. Collect a good sum of around 20 blocks
+Step 1. Find the nearest tree and destroy it by pressing the corresponding destroy button on the platform you are using. Collect a good sum of around 20 blocks.
 
 Step 2. Once you have the blocks, use the in-menu crafting option and create wooden planks to create a crafting table. To craft a crafting table, you need 4 wooden blocks.
 
 Step 3. Create some weapons and tools to help you in the game. Create an axe to cut down more trees, a sword to hunt for food and defend, or a pickaxe to collect raw metals and materials such as rock. 
 
-**Weapons **
+**Weapons**
 
 There are many craftable weapons in Minecraft. Some with materials rarer and more difficult to extract than others. The weapons included in Minecraft are composed of sets created from the same materials. 
 
