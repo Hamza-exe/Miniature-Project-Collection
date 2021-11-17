@@ -46,7 +46,7 @@ The hierarchy of the weapon sets goes from least inflicting damage to most infli
 The stone weapons sets are created from locally sourced rock found everywhere while iron and gold weapon sets are created from gold and iron ore that is smelted in furnaces to create the raw ingots needed.
 
 
-![alt_text](images/image1.png "image_tooltip")
+![Weapon sets in Minecraft; Iron, Wood, Gold, Diamond, Stone. Image source: MC WIKI](images/image1.png "image_tooltip")
 
 
 * Weapon sets in Minecraft; Iron, Wood, Gold, Diamond, Stone. Image source: MC WIKI
@@ -55,7 +55,7 @@ The stone weapons sets are created from locally sourced rock found everywhere wh
 
 There are monsters constantly trying to kill you in Minecraft. They all have different ranging powers and abilities. The Zombies in Minecraft come out at night and kill in groups, while the Skeletons use their bow and arrows to shoot you down. The Creeper is a green monster that blows up when it comes in contact with you, killing you immediately. The Spider is hostile at night but does not attack in the daytime. The Enderman is a tall, black, humanoid figure that attacks anyone that looks into its eye. It teleports all around to kill you and steals blocks as well, being able to break structures while roaming.
 
-![alt_text](images/image2.png "image_tooltip")
+![Minecraft mobs; Zombie, Spider, Enderman, Creeper, Skeleton. Source: MC WIKI](images/image2.png "image_tooltip")
 
 
 
