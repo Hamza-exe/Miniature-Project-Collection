@@ -3,9 +3,15 @@
 
 Minecraft is a large open-area game that has unlimited possibilities on how you play it. The 3D blocky game may not be visually pleasing, but what you can do with the game makes up for it. You can build any structure you like, beat the game, and survive with many different modes to play on. Creative mode allows you to have access to all different materials in the game to build with, and many different weapons to destroy with. Survival mode allows you to enter a flourished world with adventure and treasure of all sorts. Your tasks are to survive and grow your presence in this new world. This strategy guide will lead you through the challenges and foes of the game strategically while allowing you to enjoy playing along the way.
 
+
+
+
 # What you need to get started:
 
 To play Minecraft, you need to purchase the game on the platform you are using. For computer users, visit the Minecraft.com website and purchase the game. From there you start the launcher and the game is ready to be played. For mobile users, visit the app store and purchase the game and download it. All console users are required to either purchase a hard copy of the game for their platform or purchase a digital copy from their game store. 
+
+
+
 
 # Starting the game
 
@@ -16,6 +22,9 @@ Step 1. Find the nearest tree and destroy it by pressing the corresponding destr
 Step 2. Once you have the blocks, use the in-menu crafting option and create wooden planks to create a crafting table. To craft a crafting table, you need 4 wooden blocks.
 
 Step 3. Create some weapons and tools to help you in the game. Create an axe to cut down more trees, a sword to hunt for food and defend, or a pickaxe to collect raw metals and materials such as rock. 
+
+
+
 
 # Weapons
 
@@ -44,6 +53,9 @@ The stone weapons sets are created from locally sourced rock found everywhere wh
 ![Weapon sets in Minecraft; Iron, Wood, Gold, Diamond, Stone. Image source: MC WIKI](images/image1.png "image_tooltip")
 
 * Weapon sets in Minecraft; Iron, Wood, Gold, Diamond, Stone. Image source: MC WIKI
+
+
+
 
 # The Monsters
 
